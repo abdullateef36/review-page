@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', sans-serif;
+    background-color: hsl(0, 0%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff;
+    border-radius: 0.25rem;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    transition: all 0.3s linear;
+    text-align: center;
+    max-width: 800px;
+    width: 90vw;
+}
+
+.title {
+    margin-bottom: 2rem;
+}
+
+.title h2 {
+    font-size: 2rem;
+    color: #102a42;
+    letter-spacing: 0.3rem;
+    margin-bottom: 0.25rem;
+}
+
+.underline {
+    width: 5rem;
+    height: 0.25rem;
+    background: #49a6e9;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border-right: 9px solid rgb(130, 148, 247);
+}
+
+.quote-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #49a6e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.quote-icon i {
+    color: #fff;
+}
+
+.quote-right {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-bottom: 38px;
+    margin-left: 5px;
+}
+
+#author {
+    margin-bottom: 0.25rem;
+    font-size: 1.25rem;
+    color: #102a42;
+}
+
+#job {
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    color: #49a6e9;
+    font-size: 0.85rem;
+}
+
+#info {
+    margin-bottom: 0.75rem;
+    color: #617d98;
+}
+
+.button-container {
+    margin-bottom: 1rem;
+}
+
+.button-container button {
+    background: transparent;
+    border-color: transparent;
+    color: #49a6e9;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    margin: 0 0.5rem;
+}
+
+button:hover {
+    color: #102a42;
+}
+
+.left-symbol {
+    font-family: Georgia, 'Times New Roman', Times, serif, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.right-symbol {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.random-btn {
+    margin-top: 0.5rem;
+    background: transparent;
+    color: rgb(0, 185, 247);
+    padding: 0.25rem 0.5rem;
+    border: 2px solid rgb(111, 202, 233);
+    font-size: 0.85rem;
+    border-radius: 0.60rem;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.random-btn:hover {
+    color: black;
+    background: rgb(75, 178, 212);
+    transition: 0.5s;
+}
